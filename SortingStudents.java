@@ -35,7 +35,7 @@ class Student {
     } 
 }
   
-    static class SortingComparator implements Comparator<Student> { 
+    class SortingComparator implements Comparator<Student> { 
   
         @Override
         public int compare(Student c1, Student c2) { 
@@ -71,7 +71,7 @@ public class SortingStudents{
         al.add(obj5); 
         al.add(obj6); 
   
-        Iterator<Student> custIterator = al.iterator(); 
+        Iterator<Student> stIterator = al.iterator(); 
   
         System.out.println("Before Sorting:\n"); 
         while (stIterator.hasNext()) { 
