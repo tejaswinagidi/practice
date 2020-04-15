@@ -16,6 +16,7 @@ public class BalletBox {
         		if(scan.nextLine().equals(candidate[i])) {
         			c[i]++;
         			candidates.replace(candidate[i], c[i]);
+				break;
         		}	
         	}
         }
